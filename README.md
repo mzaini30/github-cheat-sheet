@@ -118,6 +118,14 @@ $ git clone https://github.com/tiimgreen/github-cheat-sheet
 
 [*Read more about the Git `clone` command.*](http://git-scm.com/docs/git-clone)
 
+#### Cloning The Latest Commit in a Repository
+
+Add `--depth=1` after `git clone`.
+
+```bash
+$ git clone --depth=1 https://github.com/tiimgreen/github-cheat-sheet
+```
+
 ### Branch
 #### Compare all Branches to Another Branch
 
